@@ -49,7 +49,7 @@ document.querySelector('.check').addEventListener('click', () => {
       displayMessage('You Lost, Game Over !');
       score--;
       document.querySelector('.score').textContent = score;
-      document.querySelector('.number').textContent = '❌';
+      document.querySelector('.number').textContent = num;
       document.querySelector('body').style.backgroundColor = '#ca0000';
     }
   } else {
